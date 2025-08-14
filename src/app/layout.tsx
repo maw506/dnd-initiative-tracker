@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body style={{ minHeight: "100dvh", background: "#ffffffff" }}>
+      <body style={{ minHeight: "100dvh", background: "#0b0b0b" }}>
         <AntdRegistry>
           <ConfigProvider
             theme={{
