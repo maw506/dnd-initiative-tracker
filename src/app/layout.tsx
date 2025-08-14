@@ -19,6 +19,7 @@ export default function RootLayout({
         <AntdRegistry>
           <ConfigProvider
             theme={{
+              algorithm: antdTheme.darkAlgorithm,
               token: {
                 colorBgBase: "#0b0b0b",
                 colorBgContainer: "#141414",
